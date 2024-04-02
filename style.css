@@ -60,7 +60,7 @@ p{
     color: #312a26;
 }
 .banner{
-    background-image: url('https://github.com/Izumi636/coffee.bean.project/blob/main/banner-bg.jpg?raw=true');
+    background-image: url("https://github.com/Izumi636/coffee.bean.project/blob/main/banner-bg.jpg?raw=true");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -122,11 +122,11 @@ p{
 }
 
 .ads-item1{
-    background-image: url('../images/ads-img1.jpg');
+    background-image: URL("https://github.com/Izumi636/coffee.bean.project/blob/main/ads-img1.jpg?raw=true");
     margin-right: 1%;
 }
 .ads-item2{
-    background-image: url('../images/ads-img2.jpg');
+    background-image: URL("https://github.com/Izumi636/coffee.bean.project/blob/main/ads-img2.jpg?raw=true");
 }
 
 .ads-text{
@@ -216,7 +216,7 @@ p{
 .discount{
     width: 85%;
     margin: 4em auto;
-    background-image: url(../images/discount-img.jpg);
+    background-image: URL("https://github.com/Izumi636/coffee.bean.project/blob/main/discount-img.jpg?raw=true");
     background-size: cover;
     background-position: center;
     height: 350px;
@@ -261,21 +261,20 @@ p{
 
 .ads-item3{
     margin-right: 3%;
-    background-image: url(../images/ads-img3.jpg);
+    background-image: URL("https://github.com/Izumi636/coffee.bean.project/blob/main/ads-img3.jpg?raw=true");
 
 }
 
 .ads-item4{
-    background-image: url(../images/ads-img4.jpg
-    );
+    background-image: URL("https://github.com/Izumi636/coffee.bean.project/blob/main/ads-img4.jpg?raw=true");
 }
 
 .ads-item5{
     margin-right: 3%;
-    background-image: url(../images/ads-img5.jpg);
+    background-image: URL("https://github.com/Izumi636/coffee.bean.project/blob/main/ads-img5.jpg?raw=true");
 }
 .ads-item6{
-    background-image: url(../images/ads-img6.jpg);
+    background-image: URL("https://github.com/Izumi636/coffee.bean.project/blob/main/ads-img6.jpg?raw=true");
 }
 
 /* Reservation area */
@@ -342,7 +341,7 @@ form p {
 /* pseudo-element simply identify the element */
 form h3::after{
     content: "";
-    background-image: url(../images/reservation-cards.png);
+    background-image: URL("https://github.com/Izumi636/coffee.bean.project/blob/main/reservation-cards.jpg?raw=true");
     background-size: contain;
     background-repeat: no-repeat;
     display: block;
@@ -364,7 +363,7 @@ form h3{
 /* footer */
 
 .footer{
-    background-image: url(../images/footer-img.jpg);
+    background-image: URL("https://github.com/Izumi636/coffee.bean.project/blob/main/footer-img.jpg?raw=true");
     background-size: cover;
     background-position: center;
     padding-top: 2em;
